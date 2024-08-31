@@ -1,0 +1,4 @@
+- name: Configuring DocFX
+  href: configuring-docfx.md
+- name: Git Guide
+  href: git-guide.md

@@ -1,0 +1,45 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "images/statscale.png",
+          "favicon.ico",
+          "android-chrome-192x192.png",
+          "android-chrome-512x512.png",
+          "apple-touch-icon.png",
+          "favicon-16x16.png",
+          "favicon-32x32.png",
+          "site.webmanifest"
+        ]
+      }
+    ],
+    "output": "_site",
+    "globalMetadata": {
+      "_appName": "",
+      "_appTitle": "Statscale",
+      "_enableSearch": true,
+      "pdf": false,
+      "_appLogoPath": "images/statscale.png",
+      "_appFooter": "&copy; Statscale",
+      "_enableNewTab": true,
+      "_appFaviconPath": "favicon.ico"
+    },
+    "template": [
+     "default",
+     "modern",
+     "template-statscale"
+    ]   
+  }
+}
