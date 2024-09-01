@@ -7,7 +7,7 @@ title: Home
 
 ---
 
-Statscale.com is focused on data organization, analysis, and development of financial markets tools.
+Documentation is focused on data organization, analysis, and development of financial markets tools and research.
 
 The articles, guides and summaries found in this site are about a variety of technologies and are for public use.  Their coverage is by no means complete or exhaustive, and mostly contextual.  
 
