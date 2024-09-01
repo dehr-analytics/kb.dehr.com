@@ -15,7 +15,7 @@ git commit -m 'Scripted commit'
 
 Write-Output '';
 Write-Output "Pulling latest from git..."
-git pull origin master
+git pull origin main
 
 Write-Output '';
 Write-Output "Pushing latest to git..."
