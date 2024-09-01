@@ -32,7 +32,7 @@
       "_enableSearch": true,
       "pdf": false,
       "_appLogoPath": "images/statscale.png",
-      "_appFooter": "&copy; <a href='https://www.statscale.com' target='window'>Statscale</a>",
+      "_appFooter": "&copy; <a href='https://www.statscale.com'>Statscale</a>",
       "_enableNewTab": true,
       "_appFaviconPath": "favicon.ico"
     },
