@@ -45,7 +45,16 @@ Write-Output "Pushing latest to git..."
 git push origin master
 
 Write-Output '';
-Write-Host 'Finito!';
+Write-Host 'Finished!';
 Start-Sleep -Seconds 1
 ```
 
+### Switching accounts from any command prompt
+
+This command will allow you to switch the account when working with Git in the command prompt:
+
+```git
+git config credential.username "new@account.com"
+```
+
+However, this pops up the Git window to sign-in each time you run a git command.
