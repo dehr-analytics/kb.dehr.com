@@ -58,3 +58,8 @@ git config credential.username "new@account.com"
 ```
 
 However, this pops up the Git window to sign-in each time you run a git command.
+
+Also, it's worthwhile to check if your default branch is main and not master.
+
+Check the ``init.defaultbranch`` by running ``git config --list``.  To change it to ``main``, run ``git config --global init.defaultbranch main``.
+
