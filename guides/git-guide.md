@@ -54,7 +54,7 @@ Start-Sleep -Seconds 1
 This command will allow you to switch the account when working with Git in the command prompt:
 
 ```git
-git config credential.username "new@account.com"
+git config credential.username new@account.com
 ```
 
 However, this pops up the Git window to sign-in each time you run a git command.
@@ -63,3 +63,6 @@ Also, it's worthwhile to check if your default branch is main and not master.
 
 Check the ``init.defaultbranch`` by running ``git config --list``.  To change it to ``main``, run ``git config --global init.defaultbranch main``.
 
+# Avoiding the git login prompt
+
+![git pop-up](/assets/git-popup.png)
