@@ -18,7 +18,7 @@ To push the locally committed changes back to your remote repo:
 git push
 ```
 
-### PowerShell script to sync it up both ways
+### PowerShell script to sync with git
 
 This is a handy script I keep on my desktop (or an easy to find document folder) which I launch whenever I work with documents outside of a coding tool that need to be quickly pushed to Git.
 
@@ -49,7 +49,7 @@ Write-Host 'Finished!';
 Start-Sleep -Seconds 1
 ```
 
-### Switching accounts from any command prompt
+### Switching GitHub account
 
 This command will allow you to switch the account when working with Git in the command prompt:
 
@@ -57,7 +57,7 @@ This command will allow you to switch the account when working with Git in the c
 git config credential.username new@account.com
 ```
 
-However, this pops up the Git window to sign-in each time you run a git command.
+However, this pops up the Git window to sign-in each time you run a git command.  To avoid the prompt pop-up, use the access token for your account.
 
 Also, it's worthwhile to check if your default branch is main and not master.
 
