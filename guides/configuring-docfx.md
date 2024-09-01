@@ -1,6 +1,6 @@
 # Configuring DocFX
 
-Here's a rolling account of how to setup DocFx for yourself.
+Here's a rolling account of how to setup DocFX for yourself.
 
 ## Git adjustments
 - Add _site to .gitignore plus all the other items your site should not have
