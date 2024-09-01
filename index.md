@@ -3,7 +3,7 @@ _layout: landing
 title: Home
 ---
 
-### Welcome
+### Docs
 
 ---
 
