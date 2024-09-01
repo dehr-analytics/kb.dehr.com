@@ -49,7 +49,7 @@ Write-Host 'Finished!';
 Start-Sleep -Seconds 1
 ```
 
-### Switching GitHub account
+### Switching GitHub account on a developer computer
 
 This command will allow you to switch the account when working with Git in the command prompt:
 
