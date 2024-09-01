@@ -65,4 +65,4 @@ Check the ``init.defaultbranch`` by running ``git config --list``.  To change it
 
 # Avoiding the git login prompt
 
-![git pop-up](/statscale.com/assets/git-popup.png)
+![git pop-up](../assets/git-popup.png)
