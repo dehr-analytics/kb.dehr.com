@@ -1,3 +1,5 @@
+$ErrorActionPreference = "Stop"
+
 Write-Host 'Pushing changes to Git for my app!';
 
 $dir = "C:\Users\piotr\source\repos\statscale.com\"
