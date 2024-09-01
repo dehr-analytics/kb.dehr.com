@@ -1,6 +1,6 @@
 Write-Host 'Pushing changes to Git for my app!';
 
-$dir = "C:\Users\username\source\repos\statscale.com\"
+$dir = "C:\Users\piotr\source\repos\statscale.com\"
 Set-Location $dir
 
 Write-Output '';
