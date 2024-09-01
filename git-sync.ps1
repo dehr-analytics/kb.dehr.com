@@ -19,7 +19,7 @@ git pull origin master
 
 Write-Output '';
 Write-Output "Pushing latest to git..."
-git push origin master
+git push origin main
 
 Write-Output '';
 Write-Host 'Finished!';
