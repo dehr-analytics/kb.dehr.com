@@ -63,6 +63,6 @@ Also, it's worthwhile to check if your default branch is main and not master.
 
 Check the ``init.defaultbranch`` by running ``git config --list``.  To change it to ``main``, run ``git config --global init.defaultbranch main``.
 
-# Avoiding the git login prompt
+## Avoiding the git login prompt
 
-![git pop-up](/assets/git-popup.png)
+![git pop-up](/statscale.com/assets/git-popup.png)
