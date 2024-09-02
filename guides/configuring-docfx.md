@@ -1,6 +1,6 @@
 # Configuring DocFX
 
-Here's a rolling account of how to setup DocFX for yourself.
+Here's a rolling account of how to customize DocFX for your own use or your company.
 
 ## Git adjustments
 - Add ``_site`` folder to ``.gitignore`` in addition to any other items your DocFX git repository should avoid having.
