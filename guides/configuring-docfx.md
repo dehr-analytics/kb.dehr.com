@@ -10,5 +10,9 @@ Here's a rolling account of how to setup DocFX for yourself.
 - Add all the favicon images to the resource list in the ``docfx.json``.
 
 ## UI customizations
-- Add customizations using a new template (i.e. logo and its size)
-- Get the source for modern template and edit the _master.tmpl to make sure your favicon stays on iOS devices' bookmarks
+- Add customizations using your own new template (i.e. logo and its size).
+    - Add a new template folder in the root of your repo - name it repo-name-template, as an example.
+    - Add ``main.css to`` the repo-name-template\public\ subfolder.
+    - Use the ``main.css`` to specify specific customizations.
+- Add the source folder for the modern template to the root of your DocFX repo and add it in the ``docfx.json``.
+- Edit the modern template's ``_master.tmpl`` and add the ``<link>`` references for all the icon sizes and the Apple touch icon.
