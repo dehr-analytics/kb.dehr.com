@@ -13,6 +13,6 @@ Here's a rolling account of how to setup DocFX for yourself.
 - Add customizations using your own new template (i.e. logo and its size).
     - Add a new template folder in the root of your repo - name it repo-name-template, as an example.
     - Add ``main.css to`` the repo-name-template\public\ subfolder.
-    - Use the ``main.css`` to specify specific customizations.
-- Add the source folder for the modern template to the root of your DocFX repo and add it in the ``docfx.json``.
-- Edit the modern template's ``_master.tmpl`` and add the ``<link>`` references for all the icon sizes and the Apple touch icon.
+    - Use the ``main.css`` to specify customizations.
+- Add the source folder for the modern template to the root of your DocFX repo and add it to the list of templates in the ``docfx.json``.
+- Edit the modern template's ``_master.tmpl`` and add all the ``<link>`` references for all the icon sizes and the Apple touch icon.
