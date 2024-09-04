@@ -13,15 +13,7 @@
     "resource": [
       {
         "files": [
-          "images/**",
-          "images/statscale.png",
-          "favicon.ico",
-          "android-chrome-192x192.png",
-          "android-chrome-512x512.png",
-          "apple-touch-icon.png",
-          "favicon-16x16.png",
-          "favicon-32x32.png",
-          "site.webmanifest"
+          "template-statscale/**"
         ]
       }
     ],
@@ -31,10 +23,10 @@
       "_appTitle": "Statscale",
       "_enableSearch": true,
       "pdf": false,
-      "_appLogoPath": "images/statscale.png",
+      "_appLogoPath": "/template-statscale/statscale.png",
       "_appFooter": "&copy; <a href='https://www.statscale.com'>Statscale</a>",
       "_enableNewTab": true,
-      "_appFaviconPath": "favicon.ico"
+      "_appFaviconPath": "/template-statscale/favicon.ico"
     },
     "template": [
      "default",
