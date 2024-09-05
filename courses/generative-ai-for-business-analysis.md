@@ -1,6 +1,6 @@
 # Generative AI for Business Analysis
 
-A basic course like the one on Pluralsight showing AI tools to support your business analysis work is a crucial first step in adapting AI for business analysis, coders, IT managers, or any professionals.
+A convenient listing of AI-enabled tools to conduct business analysis:
 
 - <a href="https://chatgpt.com" target="window">chatgpt.com</a> - use ChatGPT to create tabled stages, validation and criteria for passing the stages for processes
 - <a href="https://xmind.ai" target="window">xmind.ai</a> - create “mind map”, a listing, of logical steps from a prompt, allows you to drill down into each step and create more detailed steps
