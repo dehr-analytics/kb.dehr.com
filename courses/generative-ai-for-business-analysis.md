@@ -11,7 +11,7 @@ A convenient listing of AI-enabled tools to conduct business analysis:
 
 ## Other newly AI-enhanced tools useful for business analysis
 - Gmail - turn on AI for email using prompts
-- Using Grammarly with Google docs
+- Grammarly with Google docs
 - Google Translate - upload entire documents to translate them
 
 ## Final notes
