@@ -2,6 +2,10 @@
 # Trigger the action on push to main
 on:
   push:
+    paths-ignore:
+      - 'README.md'
+      - 'backup/**'
+      - '**/*.draft.md'  
     branches:
       - main
 
