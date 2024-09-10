@@ -15,5 +15,5 @@ A convenient listing of AI-enabled tools to conduct business analysis:
 - Google Translate - upload entire documents to translate them
 
 ## Final notes
-- Set up your AI tools prior to using
+- Set up your AI tools prior to using them
 - Include your own verification activities
