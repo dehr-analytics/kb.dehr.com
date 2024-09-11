@@ -1,6 +1,6 @@
 # SharePoint Online PowerShell Guide
 
-If you manage an online SharePoint tenant you will run into a lot of situations where PowerShell will be the surest way to accomplish your tasks.
+If you manage an online SharePoint tenant you will run into a lot of situations where PowerShell will be the surest way to accomplish your tasks.  This guide doesn't cover SharePoint on-premises, it only attempts to cover some aspects of SharePoint Online administration.
 
 ### Permanently deleting a site via PowerShell
 
