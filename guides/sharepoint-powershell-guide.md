@@ -83,7 +83,7 @@ There are 4 site permission levels
 ### Adding site owners and site collection admins using PowerShell:
 
 ```powershell
-    Set-SPOSite
+Set-SPOSite
     -Identity https://site.sharepoint.com/sites/thehub
     -Owner jack@smith.com
 
