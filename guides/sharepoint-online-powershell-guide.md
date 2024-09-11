@@ -10,7 +10,7 @@ Remove-SPODeletedSite -Identity https://site.sharepoint.com
 ```
 
 > [!Note]
-> Make sure you know what you're doing through PowerShell because it won't prompt you.  There might be a way for Microsoft to restore a deleted site, but MS would have to be involved.
+> Make sure you know what you're doing through PowerShell because it won't prompt you.  There might be a way to restore a deleted site but Microsoft would have to be involved.
 
 ### Managing Hub Sites
 
