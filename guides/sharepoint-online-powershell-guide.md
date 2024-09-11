@@ -1,4 +1,4 @@
-# SharePoint PowerShell Guide
+# SharePoint Online PowerShell Guide
 
 If you manage an online SharePoint tenant you will run into a lot of situations where PowerShell will be the surest way to accomplish your tasks.
 
