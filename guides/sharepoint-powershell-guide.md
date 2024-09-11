@@ -6,7 +6,7 @@ If you manage an online SharePoint tenant you will run into a lot of situations 
 
 ```powershell
 Remove-SPOSite -Identity https://site.sharepoint.com
-RemoveSPODeletedSite -Identity https://site.sharepoint.com
+Remove-SPODeletedSite -Identity https://site.sharepoint.com
 ```
 
 > [!Note]
