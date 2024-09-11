@@ -4,8 +4,10 @@ If you manage an online SharePoint tenant you will run into a lot of situations 
 
 ### Permanently deleting a site via PowerShell
 
+```powershell
 Remove-SPOSite -Identity https://site.sharepoint.com
 RemoveSPODeletedSite -Identity https://site.sharepoint.com
+```
 
 > [!Note]
 > Make sure you know what you're doing through PowerShell because it won't prompt you.  There might be a way for Microsoft to restore a deleted site, but MS would have to be involved.
