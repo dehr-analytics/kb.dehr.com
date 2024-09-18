@@ -94,16 +94,12 @@ Once you have the new settings in appsettings.json, such as this:
 
 ```json
 "Features": {
-    "EnableWeatherForecas": false
+    "EnableWeatherForecast": false
 }
 ```
 You can add the configuration to an instance using the following in ``Program.cs`` using ``services.Configure<FeaturesConfiguration>``
 
-Rewatch the Accessing COnfiguration from DI container
-and what to register with DI container (first more important)
-
 ## Disposal of services
-
 - Handles disposable types
 - User created instances are not disposed (lifetime managed externally)
 - IAsyncDisposable
@@ -112,9 +108,6 @@ and what to register with DI container (first more important)
 ## Side-effects of captured dependencies
 - Accidental sharing of non-thread-safe services between threads
 - Objects living longer than their expected lifetime
-
-
-
 - Inject them as enumerable 
 
 
