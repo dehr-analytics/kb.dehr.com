@@ -11,7 +11,7 @@
 ## Data visualization
 
 - Tableau - costlier
-- Microsoft Power BI - a growing developer community)
+- Microsoft Power BI - a growing developer community
 - R packages - ggplot, shiny
 - Python libraries - altair, matplotlib, plotly, seaborn
 
