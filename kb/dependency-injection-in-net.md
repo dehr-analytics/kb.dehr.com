@@ -87,7 +87,7 @@ Services are registered at start up, and resolve at runtime - whenever they're r
 - Technically possible to register strings but it is a misuse
 - Common requirement for service registration is to provide configuration values, in which case the options pattern will suit much better
 - Accessing Configuration from the DI Container
-- A Pluralsight class - https://app.pluralsight/library/courses/dotnet-core-aspnet-core-configuration-options
+- A Pluralsight class - https://app.pluralsight.com/library/courses/dotnet-core-aspnet-core-configuration-options
 - Use the options pattern
 
 Once you have the new settings in appsettings.json, such as this:
