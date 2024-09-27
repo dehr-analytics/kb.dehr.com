@@ -6,3 +6,5 @@
   href: data-science-notes.md
 - name: Dependency Injection in .NET
   href: dependency-injection-in-net.md  
+- name: Setup for Local .NET Development
+  href: setup-for-local-net-development.md  
