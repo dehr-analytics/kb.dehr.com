@@ -1,4 +1,10 @@
+# This is an automatically generated file
+items:
+- name: Guides
+  href: index.md
 - name: Configuring DocFX
   href: configuring-docfx.md
+- name: Finding Error Details in SharePoint Server
+  href: finding-error-details-in-sharepoint-server.md
 - name: Git Guide
   href: git-guide.md
