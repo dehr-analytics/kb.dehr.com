@@ -17,7 +17,7 @@ Here's a rolling account of how to customize DocFX for your own use or your comp
 - Add the source folder for the modern template to the root of your DocFX repo and add it to the list of templates in the ``docfx.json``.
 - Edit the modern template's ``_master.tmpl`` and add all the ``<link>`` references for all the icon sizes and the Apple touch icon.
 
-# DocFX Companion Tools
+## DocFX Companion Tools
 
 These tools are very useful, for example, using the DocFXTocGenerator your site will generate all the menu links from existing content (.md files) recursively.
 
