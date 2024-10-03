@@ -38,3 +38,5 @@ DocFxTocGenerator -d ./docs -vs
 ```
 
 The explanation for the parameters v and s is <a href="https://github.com/Ellerbach/docfx-companion-tools/tree/main/src/DocFxTocGenerator">here</a>.
+
+With the DocFxTocGenerator it's easiest to employ a couple of these commands to your git sync file, so that the table of contents are generated automatically before the pages are pushed to the repository.
