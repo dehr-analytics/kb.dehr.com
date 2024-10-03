@@ -1,7 +1,5 @@
 # This is an automatically generated file
 items:
-- name: Guides
-  href: index.md
 - name: Configuring DocFX
   href: configuring-docfx.md
 - name: DocFX Companion Tools

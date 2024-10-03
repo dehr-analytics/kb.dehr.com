@@ -1,13 +1,11 @@
 # This is an automatically generated file
 items:
-- name: Kb
-  href: index.md
-- name: Creating the Models
-  href: entity-framework-guide.draft.md
 - name: Data Science Notes
   href: data-science-notes.md
 - name: Dependency Injection in .NET
   href: dependency-injection-in-net.md
+- name: Entity Framework in .NET
+  href: entity-framework-in-net.md
 - name: Generative AI for Business Analysis
   href: generative-ai-for-business-analysis.md
 - name: Setup for Local .NET Development
