@@ -4,6 +4,8 @@ items:
   href: index.md
 - name: Configuring DocFX
   href: configuring-docfx.md
+- name: DocFX Companion Tools
+  href: docfx-companion-tools.md
 - name: Finding Error Details in SharePoint Server
   href: finding-error-details-in-sharepoint-server.md
 - name: Git Guide
