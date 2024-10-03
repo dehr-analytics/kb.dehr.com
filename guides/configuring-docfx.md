@@ -16,3 +16,25 @@ Here's a rolling account of how to customize DocFX for your own use or your comp
     - Use the ``main.css`` to specify customizations.
 - Add the source folder for the modern template to the root of your DocFX repo and add it to the list of templates in the ``docfx.json``.
 - Edit the modern template's ``_master.tmpl`` and add all the ``<link>`` references for all the icon sizes and the Apple touch icon.
+
+# DocFX Companion Tools
+
+These tools are very useful, for example, using the DocFXTocGenerator your site will generate all the menu links from existing content (.md files) recursively.
+
+- <a href="https://github.com/Ellerbach/docfx-companion-tools" target="window">DocFX Companion Tools</a>
+
+To set up DocFxTocGenerator, simply install the DocFxTocGenerator on your machine using the dotnet tool:
+
+```powershell
+dotnet tool install DocFxTocGenerator -g
+```
+
+The instructions for doing the above are <a href="https://github.com/Ellerbach/docfx-companion-tools?tab=readme-ov-file" target="window">here</a>.
+
+Then add this line of code for each of your documentation folder in your DocFx site:
+
+```powershell
+DocFxTocGenerator -d ./docs -vs
+```
+
+The explanation for the parameters v and s is <a href="https://github.com/Ellerbach/docfx-companion-tools/tree/main/src/DocFxTocGenerator">here</a>.
