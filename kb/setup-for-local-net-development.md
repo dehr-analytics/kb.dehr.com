@@ -2,10 +2,8 @@
 
 This is very much in progress.
 
-## Install a git client
-
-Here is a link for git client on Windows:
-- [Git for Windows](https://git-scm.com/downloads/guis?os=windows)
+## Install the git CLI tool for your environment
+- <a href="https://git-scm.com/downloads" target="_blank">Git CLI</a>
 
 ## Local cert issues
 
