@@ -7,6 +7,8 @@ This is very much in progress.
 Here is a link for git client on Windows:
 - [Git for Windows](https://git-scm.com/downloads/guis?os=windows)
 
+## Local cert issues
+
 When lauching your .Net project for the first time, you may run into this SSL error: `NET::ERR_CERT_INVALID`.
 
 Make sure to set your local certificate as trusted:
