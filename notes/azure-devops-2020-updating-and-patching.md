@@ -1,1 +1,0 @@
-# Azure DevOps 2020 Server Updating and Patching
