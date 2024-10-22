@@ -5,7 +5,7 @@ Write-Host 'Pushing changes to Git for my app!';
 $dir = $env:USERPROFILE + "\source\repos\docs.statscale.com\"
 Set-Location $dir
 
-docfxtocgenerator -d ./guides -vs
+docfxtocgenerator -d ./notes -vs
 docfxtocgenerator -d ./kb -vs
 
 Write-Output '';
