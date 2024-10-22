@@ -2,6 +2,11 @@
 
 This is very much in progress.
 
+## Install the git CLI tool for your environment
+- <a href="https://git-scm.com/downloads" target="_blank">Git CLI</a>
+
+## Local cert issues
+
 When lauching your .Net project for the first time, you may run into this SSL error: `NET::ERR_CERT_INVALID`.
 
 Make sure to set your local certificate as trusted:
