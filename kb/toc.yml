@@ -12,6 +12,8 @@ items:
   href: generative-ai-for-business-analysis.md
 - name: Git Guide
   href: git-guide.md
+- name: Introduction to Microsoft Copilot
+  href: introduction-to-microsoft-copilot.md
 - name: Setup for Local .NET Development
   href: setup-for-local-net-development.md
 - name: SharePoint Online Administration
