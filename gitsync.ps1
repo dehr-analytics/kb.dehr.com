@@ -5,8 +5,7 @@ Write-Host 'Pushing changes to Git for my app!';
 $dir = $env:USERPROFILE + "\source\repos\docs.statscale.com\"
 Set-Location $dir
 
-docfxtocgenerator -d ./notes -vs
-docfxtocgenerator -d ./kb -vs
+& .\gentoc.ps1
 
 Write-Output '';
 Write-Output 'Adding locally...'

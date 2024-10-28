@@ -1,0 +1,12 @@
+# This is an automatically generated file
+items:
+- name: Configuring DocFX
+  href: configuring-docfx.md
+- name: Entity Framework in .NET
+  href: entity-framework-in-net.md
+- name: Finding Error Details in SharePoint Server
+  href: finding-error-details-in-sharepoint-server.md
+- name: Git Guide
+  href: git-guide.md
+- name: Setup for Local .NET Development
+  href: setup-for-local-net-development.md

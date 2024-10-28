@@ -12,6 +12,7 @@ samples/**/api
 src/Docfx.App/templates
 test/**/TestResults
 
+*.draft
 *.user
 *.log
 *.cache

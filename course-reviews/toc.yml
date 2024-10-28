@@ -1,20 +1,14 @@
 # This is an automatically generated file
 items:
-- name: Configuring DocFX
-  href: configuring-docfx.md
+- name: ASP.NET Core Clean Architecture
+  href: asp-net-core-clean-architecture.md
 - name: Data Science Notes
   href: data-science-notes.md
 - name: Dependency Injection in .NET
   href: dependency-injection-in-net.md
-- name: Entity Framework in .NET
-  href: entity-framework-in-net.md
 - name: Generative AI for Business Analysis
   href: generative-ai-for-business-analysis.md
-- name: Git Guide
-  href: git-guide.md
 - name: Introduction to Microsoft Copilot
   href: introduction-to-microsoft-copilot.md
-- name: Setup for Local .NET Development
-  href: setup-for-local-net-development.md
 - name: SharePoint Online Administration
   href: sharepoint-online-administration.md
