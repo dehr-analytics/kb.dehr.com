@@ -96,7 +96,7 @@ Clean architecture
 - Separate concerns
 - Create maintainable and testable application code
 - Introduced in 2012 (hexagonal and onion architecture)
-- Independant of "external influences"
+- Independent of "external influences"
 	- UI
 	- Database
 
@@ -184,8 +184,6 @@ Requirements
 		- Infrastructure
 		- UI
 - Add Solution folder - test
-
-
 - Contracts (Under Core - Class library)
 	- Part of the application core
 	- Functionality is described in interfaces
