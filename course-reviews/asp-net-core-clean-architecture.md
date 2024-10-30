@@ -25,7 +25,7 @@ What You Need
 ## Understanding Foundational Architectural Principles
 
 - Foundational design principles
-- Different application architectural stles
+- Different application architectural styles
 - Understanding clean architecture
 
 ### Important Design Principles
@@ -102,7 +102,7 @@ Clean architecture
 
 - Onion architecture
 	- At the core, interfaces and entities are aware of the database implementation
-	- Application core, or the busines logic, is unaware of any UI implementation
+	- Application core, or the business logic, is unaware of any UI implementation
 	- Outer layers are pointing inward - working with inner abstractions
 
 Clean architecture is a concentric circle.  From inside out, it consists:
@@ -206,7 +206,7 @@ Simple mediator implementation in .NET
 - <a href="https://www.github.com/jbogard/MediatR" target="_blank">https://www.github.com/jbogard/MediatR</a>
 
 Adding MediatR
-- Install-Pacakge MediatR
+- Install-Package MediatR
 
 Using
 - IRequest
