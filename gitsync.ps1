@@ -5,6 +5,8 @@ Write-Host 'Pushing changes to Git for my app!';
 $dir = $env:USERPROFILE + "\source\repos\docs.statscale.com\"
 Set-Location $dir
 
+& .\gentoc.ps1
+
 Write-Output '';
 Write-Output 'Adding locally...'
 git add .
