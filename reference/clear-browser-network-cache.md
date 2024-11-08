@@ -1,6 +1,6 @@
 # Clear Browser Network Cache
 
-- Go to the following URL and type clear hosts
+Go to the following URL and click Clear host cache
 
 ```
 chrome://net-internals/#dns
