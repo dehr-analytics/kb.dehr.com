@@ -245,7 +245,11 @@ var result = _mapper.Map<List<EventListVm>>(listItems);
 
 _mapper is an instance of AutoMapper, and listItems is a simple list that will be mapped to ViewModels, and using the Map method the listItems will be converted to ViewModels type and data copied over.
 
+## MediatR and AutoMapper
 
+### Creating a request and request handler
+
+### Adding a ServiceCollection extension class
 
 
 
