@@ -72,7 +72,6 @@ A yml file dictates how your app deployment behaves.  An app update should not o
 
 Here's a sample yml file that has the ignore directive.  When repo push occurs, anything under the directory .github will not cause the app to deploy (the build and deploy job part of the yml is not shown):
 
-
 ```yml
 on:
   push:
@@ -82,3 +81,5 @@ on:
       - main
 ```
 
+
+<hr>
