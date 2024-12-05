@@ -57,7 +57,7 @@ This command will allow you to switch the account when working with Git in the c
 git config credential.username new@account.com
 ```
 
-However, this pops up the Git window to sign-in each time you run a git command.  To avoid the prompt pop-up, use the access token for your account.
+However, this pops up the Git window to sign-in each time you run a git command.  To avoid the prompt pop-up, pick the access token method in the pop-up and paste it in for your account.  The pop-up shouldn't come up again.
 
 Also, it's worthwhile to change your default branch to main from master, as that's the new GitHub default branch name.
 
