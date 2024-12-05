@@ -68,9 +68,9 @@ git config --global init.defaultbranch main
 
 ### Ignoring files during deployments
 
-A yml file dictates how your app deployment behaves.  An app update should not occur when the yml file itself is updated because the yml file doesn't change how the app works.  
+A yml file dictates how your app deployment behaves.  An app update should not occur when the yml file is itself updated because the yml file doesn't change how the app works.  
 
-Here's a sample yml file that has the ignore directive.  When repo push occurs, anything under the directory .github will not cause the app to deploy (the job description below is not shown):
+Here's a sample yml file that has the ignore directive.  When repo push occurs, anything under the directory .github will not cause the app to deploy (the build and deploy job part of the yml is not shown):
 
 
 ```yml
