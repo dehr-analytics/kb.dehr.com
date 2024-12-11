@@ -13,13 +13,13 @@ With Azure DevOps, you can deploy from Azure DevOps to on-premise server to run 
 - Pick the ASP.NET template or a specific template to your language code
 - Select Build solution (the .sln file)
 - For Test filter criteria, set your criteria, i.e. TestCategory=Unit Test
-- For the database part, create a Copy files step, and pick the source folder ``${build.sourcedirectory}``, Contents as ``**\bin\${BuildConfiguration}\**`` (the asterisks mean its reecursive), and target folder as ``${build.artifactstagingdirectory}``
+- For the database part, create a Copy files step, and pick the source folder ``${build.sourcedirectory}``, Contents as ``**\bin\${BuildConfiguration}\**`` (the asterisks mean its recursive), and target folder as ``${build.artifactstagingdirectory}``
 
 
 ## Creating deployment groups
 
 - Go to Deployment groups and create a new one
-- When you create a deployment group, the REgistration script (PowerShell) that shows up is the code that you will need to run on the deployment server to install the agent
+- When you create a deployment group, the Registration script (PowerShell) that shows up is the code that you will need to run on the deployment server to install the agent
 - Open a PowerShell window in your deployment target server, and run the PowerShell script
 - When you run the PowerShell to create the agent, you'll need the service account to run the agent
 - Make sure to select ``Use a personal access token in the script for authentication`` to handle the authentication
@@ -43,3 +43,4 @@ With Azure DevOps, you can deploy from Azure DevOps to on-premise server to run 
 - <a href="https://www.youtube.com/watch?v=_sUf0wqJYXo" target="window">Part 1</a>
 - <a href="https://www.youtube.com/watch?v=58UfRxxAWhE" target="window">Part 2</a>
 - <a href="https://www.youtube.com/watch?v=S90pG8zDlEA" target="window">Part 3</a>
+- <a href="https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver16">Data-tier applications (DAC)</a>
