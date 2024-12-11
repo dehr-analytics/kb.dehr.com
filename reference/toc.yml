@@ -4,8 +4,8 @@ items:
   href: clear-browser-network-cache.md
 - name: Configuring DocFX
   href: configuring-docfx.md
-- name: Deploying apps to your on premise servers from Azure DevOps
-  href: devops-lab.md
+- name: Deploy from Azure DevOps to On Premise Environment
+  href: deploy-form-azure-devops-to-on-premise-environment.md
 - name: Entity Framework in .NET
   href: entity-framework-in-net.md
 - name: Finding Error Details in SharePoint Server
