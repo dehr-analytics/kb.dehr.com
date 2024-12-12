@@ -1,6 +1,6 @@
 ---
 _layout: landing
-title: Home
+title: Docs
 ---
 
 ### Docs
