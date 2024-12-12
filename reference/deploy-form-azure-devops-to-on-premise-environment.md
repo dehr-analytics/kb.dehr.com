@@ -28,9 +28,49 @@ With Azure DevOps, you can deploy from Azure DevOps to on-premise server to run 
 
 ## Creating a pipeline
 
-- 
+- Pick a deployment group that you've created in the previous step
+- You can have a web server and a db server group, both tagged differently, 'web' and 'db' respectively
+- Go to Releases and go to ``New release pipeline``
+- Select the right pipeline; in this example, the person selected ``IIS website and SQL database deployment``
+- Under Stages, call the stage name the ``dev`` for development environment
+- Under Artifacts, add an artifact that you've built in the create build phase
+- It will fill the source field and populate the default version and source alias, then click Add
+- Go to the release pipeline - some info that will need to be set
+    - Deployment group: demo
+    - Required tags: web (for the web app)
+    - Multiple: to deploy to all targets by that tag in parallel
+- IIS Web App Manage
+    - Unlink some of these fields to make changes
+    - Parent website name: give it a name
+    - Virtual path: pick the path of the site in the build
+    - Physical path authentication: Application User (Pass-through)
+    - Advanced settings - explore the settings and adjust accordingly
+- IIS Web App Deploy
+    - Display name: IIS Web App Deploy
+    - Website Name: Default Web Site
+    - Virtual Application: your-app-name
+    - Package or Folder: ``${System.DefaultWorkingDirectory}\**\*.zip``
+    - Advanced settings - here you can transform your connection strings, for example
+- SQL Deployment
+    - Deployment group: demo
+    - Required tags: db
+- SQL DB Deploy
+    - Display name: SQL DB Deploy
+    - Deploy SQL Using: Sql Dacpac
+    - DACPAC File: ``${System.DefaultWOrkingDirectory}\**\*.dacpac``
+    - Specify SQL Using: Server
+    - Server Name: localhost
+    - Database Name: your-db-name
+    - Authentication: Windows Authentication
 
-## Database deployment process
+That should be it.
+
+- Click Save
+- Click Create release, then click Create
+
+The release is created and should be in progress.
+
+## Database deployment process notes
 
 - DevOps world has database projects
 - Check in the schema to your source control
