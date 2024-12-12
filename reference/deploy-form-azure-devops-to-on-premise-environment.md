@@ -26,6 +26,10 @@ With Azure DevOps, you can deploy from Azure DevOps to on-premise server to run 
 - The new target will show up in the Deployment groups in DevOps
 
 
+## Creating a pipeline
+
+- 
+
 ## Database deployment process
 
 - DevOps world has database projects
