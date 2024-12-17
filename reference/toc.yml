@@ -12,5 +12,7 @@ items:
   href: finding-error-details-in-sharepoint-server.md
 - name: Git Guide
   href: git-guide.md
+- name: In Depth Look at the Service Data Gateway
+  href: m365-data-gateway-ignore.md
 - name: Setup for Local .NET Development
   href: setup-for-local-net-development.md

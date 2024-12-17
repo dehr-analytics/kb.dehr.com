@@ -8,7 +8,7 @@ The type of the relationship is 1-to-many because the ``Company`` class doesn't 
 
 # Creating the Models
 
-``Pending...``
+[Pending]
 
 # Updating the Database from the Model Code
 
