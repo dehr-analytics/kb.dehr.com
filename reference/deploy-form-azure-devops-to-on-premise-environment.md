@@ -1,6 +1,6 @@
 # Deploy from Azure DevOps to On-Premise Environment
 
-With Azure DevOps, you can deploy from Azure DevOps to on-premise server to run an app.  No changes to the firewall are required, the servers only run the agents that will reach out to the DeVops and pull down the deployed app(s) down to the on-prem server(s).
+With Azure DevOps, you can deploy web or database apps from Azure DevOps to on-premise servers.  No changes to the firewall are required, the servers run the agents that will talk to Azure DevOps and perform any updates.
 
 - Create a build in Azure DevOps
 - Create deployment groups on the on-premise servers
