@@ -70,13 +70,13 @@ More modular code
 
 ## Different Application Architectural Styles
 
-All-in-one architecture
+### All-in-one architecture
 - Contained typically one (large) Visual Studio project
 - Start with quick File > New Project projects
 - "Layers" are folders
 - Can be difficult to maintain
 
-Layered architecture
+### Layered architecture
 - Split according to concern
 - Pushes to the idea of SoC (Separate of concerns)
 - Promote reuse
@@ -90,7 +90,7 @@ Layered architecture
   - Still "coupling" between layers
   - Behaves as a single application
 
-Clean architecture	
+### Clean architecture
 - Based on design principles
 - Separate concerns
 - Create maintainable and testable application code
@@ -99,24 +99,24 @@ Clean architecture
   - UI
   - Database
 
-- Onion architecture
-  - At the core, interfaces and entities are aware of the database implementation
-  - Application core, or the business logic, is unaware of any UI implementation
-  - Outer layers are pointing inward - working with inner abstractions
+### Onion architecture
+- At the core, interfaces and entities are aware of the database implementation
+- Application core, or the business logic, is unaware of any UI implementation
+- Outer layers are pointing inward - working with inner abstractions
 
-Clean architecture is a concentric circle.  From inside out, it consists:
+### Clean architecture is a concentric circle.  From inside out, it consists:
 - Interfaces, entities
 - Application core
 - Infrastructure layer (uses core abstractions)
 - UI is the outer layer
 
-Two Important Principles
+### Two Important Principles
 - Dependency Inversion
 - Mediator pattern
 
 ![alt text](../assets/asp-net-core-clean-architecture-1.png) 
 
-Core
+### Core
 - Entities
 - Interfaces
 	- Core
@@ -124,16 +124,16 @@ Core
 - Services
 - Exceptions
 
-No dependency to any Infrastructure-related code or package
+### No dependency to any Infrastructure-related code or package
 
-Infrastructure
+## Infrastructure
 - Data access (EF Core)
 - Logging
 - API Clients
 - Identity
 - File Access
 
-UI
+### UI
 - API/MVC/Razor
 - Specific ASP.NET Core items
 	- Middleware
@@ -142,7 +142,7 @@ UI
 	- Loose coupling
 	- Lightweight controllers
 	
-Clean Architecture Benefits
+### Clean Architecture Benefits
 - Independent of UI or used frameworks
 - No knowledge of used database
 - Testable and maintainable
@@ -160,8 +160,7 @@ Clean Architecture Benefits
 	- Validation
 	- Exceptions
 
-Requirements
-
+### Requirements
 - Manage entities
 - Entity categories
 
@@ -205,11 +204,11 @@ Simple mediator implementation in .NET
 - <a href="https://www.github.com/jbogard/MediatR" target="_blank">https://www.github.com/jbogard/MediatR</a>
 
 Adding MediatR
-- Install-Package MediatR
+- ``Install-Package MediatR``
 
 Using
-- IRequest
-- IRequestHandler
+- ``IRequest``
+- ``IRequestHandler``
 
 Defining the Request Handler
 
@@ -223,7 +222,6 @@ public class GetEventsListQueryHandler : IRequestHandler<GetEventsListQuery, Lis
 ```
 
 ### Other Features of MediatR
-
 - Logging
 - Validation
 - Caching
