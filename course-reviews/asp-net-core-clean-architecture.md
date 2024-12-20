@@ -11,7 +11,6 @@
 - Testable and maintainable
 
 Look forward to the New Architecture to build your new projects.
-
 - C#
 - ASP.NET COre and EF Core
 - REST APIs with ASP.NET Core
@@ -84,12 +83,12 @@ Layered architecture
 - Easier to maintain
 - Pluggable (i.e. switch database via database access layer)
 - Layers
-	- Presentation layer
-	- Business logic layer
-	- Data access layer
+  - Presentation layer
+  - Business logic layer
+  - Data access layer
 - Disadvantage of Layered Architecture
-	- Still "coupling" between layers
-	- Behaves as a single application
+  - Still "coupling" between layers
+  - Behaves as a single application
 
 Clean architecture	
 - Based on design principles
@@ -97,13 +96,13 @@ Clean architecture
 - Create maintainable and testable application code
 - Introduced in 2012 (hexagonal and onion architecture)
 - Independent of "external influences"
-	- UI
-	- Database
+  - UI
+  - Database
 
 - Onion architecture
-	- At the core, interfaces and entities are aware of the database implementation
-	- Application core, or the business logic, is unaware of any UI implementation
-	- Outer layers are pointing inward - working with inner abstractions
+  - At the core, interfaces and entities are aware of the database implementation
+  - Application core, or the business logic, is unaware of any UI implementation
+  - Outer layers are pointing inward - working with inner abstractions
 
 Clean architecture is a concentric circle.  From inside out, it consists:
 - Interfaces, entities
