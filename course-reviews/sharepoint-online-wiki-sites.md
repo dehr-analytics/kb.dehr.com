@@ -5,6 +5,7 @@ It's best if you are a SharePoint Online admin.
 
 - Which template to use?
   - Communication site or team site?
+  - Use the team site without the Teams space, this requires the SharePoint Admin role
 
 ## Metadata
 - Add columns in grid view
@@ -13,14 +14,27 @@ It's best if you are a SharePoint Online admin.
 - Create a front-page view, i.e. Recent Changes, and limit to about 10, make the window height flexible to as big as it gets
 
 ## Audience targeting
+- It's possible to set audience targeting on quick links and left-hand side navigation
+- Edit the web part on the page, and select Enable audience targeting on the web part itself, i.e. quick links web part
+- Edit the quick link, and select the audience groups
+- On navigation, if a parent section label is audience-targeted, all sublinks will be in the same audience-targeted group
 
-## Search vertical
+## Search vertical and customizing search experience
+- Go to site information and site settings
+- In the Microsoft Search section go to Search insights and configuration
+- For each vertical, select and edit it and disable it
 
+## Create your own search vertical
+This custom search vertical will create a KB Article search result type.
+- In the Search insights and configuration page, click Add
+- 
+
+# Site security and permissions
 
  
  Metadata:
 
 ## References
 - https://sharepointmaven.com/how-to-create-a-knowledge-base-in-sharepoint/
-- https://sharepointmaven.com/how-to-create-a-knowledge-base-in-sharepoint/
+- https://sharepointmaven.com/what-is-keyword-query-language-and-how-to-use-it-in-sharepoint-online/
 - 
