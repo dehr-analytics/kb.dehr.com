@@ -27,12 +27,8 @@ It's best if you are a SharePoint Online admin.
 ## Create your own search vertical
 This custom search vertical will create a KB Article search result type.
 - In the Search insights and configuration page, click Add
-- 
 
 # Site security and permissions
-
- 
- Metadata:
 
 ## References
 - https://sharepointmaven.com/how-to-create-a-knowledge-base-in-sharepoint/
