@@ -1,5 +1,7 @@
 # SharePoint Online Wiki Sites
 
+This quick reference article goes over how to create a simple wiki knowledge base site on SharePoint Online.
+
 ## Create a brand new site
 It's best if you are a SharePoint Online admin.
 
@@ -33,4 +35,3 @@ This custom search vertical will create a KB Article search result type.
 ## References
 - https://sharepointmaven.com/how-to-create-a-knowledge-base-in-sharepoint/
 - https://sharepointmaven.com/what-is-keyword-query-language-and-how-to-use-it-in-sharepoint-online/
-- 
