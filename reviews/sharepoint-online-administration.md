@@ -2,15 +2,15 @@
 
 If you manage an online SharePoint tenant you will run into a lot of situations where PowerShell will be the surest way to accomplish your tasks.  This guide doesn't cover SharePoint on-premises, it only attempts to cover some aspects of SharePoint Online administration.
 
+> [!Note]
+> Make sure you know what your actions will accomplish, PowerShell will not prompt to confirm your actions.  There might be a way to restore a deleted site but Microsoft would have to be involved.
+
 ### Permanently deleting a site via PowerShell
 
 ```powershell
 Remove-SPOSite -Identity https://site.sharepoint.com
 Remove-SPODeletedSite -Identity https://site.sharepoint.com
 ```
-
-> [!Note]
-> Make sure you know what you're doing through PowerShell because it won't prompt you.  There might be a way to restore a deleted site but Microsoft would have to be involved.
 
 ### Managing Hub Sites
 
@@ -23,7 +23,7 @@ Remove-SPODeletedSite -Identity https://site.sharepoint.com
 - Can also configure an approval workflow
 - Hub site can be registered in the admin center
 - Admins can choose who can associate sites with hub - Users, Security Groups, Office 365 Groups
-- Hub site can be registed with PowerShell (to make it a hub site)
+- Hub site can be registered with PowerShell (to make it a hub site)
 
 ```powershell
 Register-SPOHubSite -Site https://site.sharepoint.com/sites/hubsite -Principals $null
