@@ -1,2 +1,2 @@
-docfxtocgenerator -d ./course-reviews -vs
+docfxtocgenerator -d ./reviews -vs
 docfxtocgenerator -d ./reference -vs

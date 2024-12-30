@@ -16,3 +16,5 @@ items:
   href: m365-data-gateway-ignore.md
 - name: Setup for Local .NET Development
   href: setup-for-local-net-development.md
+- name: SharePoint Online Wiki Sites
+  href: sharepoint-online-wiki-sites.md
