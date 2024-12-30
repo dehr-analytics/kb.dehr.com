@@ -32,6 +32,7 @@ This custom search vertical will create a KB Article search result type.
 
 # Site security and permissions
 
+
 ## References
 - https://sharepointmaven.com/how-to-create-a-knowledge-base-in-sharepoint/
 - https://sharepointmaven.com/what-is-keyword-query-language-and-how-to-use-it-in-sharepoint-online/
