@@ -45,7 +45,7 @@ Dependencies should be pointing to abstractions
 
 - Split into blocks of functionality
 - Each covering a concern
-- Componentized, modularized code blocks
+- Component-based, modularized code blocks
 
 More modular code
 
