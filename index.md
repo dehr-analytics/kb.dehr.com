@@ -1,9 +1,9 @@
 ---
 _layout: landing
-title: Docs
+title: Hello
 ---
 
-### Docs
+### Welcome
 
 ---
 
