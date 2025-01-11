@@ -12,8 +12,12 @@ items:
   href: finding-error-details-in-sharepoint-server.md
 - name: Git Guide
   href: git-guide.md
+- name: In Depth Look at Service Data Gateway
+  href: in-depth-look-at-service-data-gateway.md
 - name: In Depth Look at the Service Data Gateway
   href: m365-data-gateway-ignore.md
+- name: Microsoft forms and powerapps tips
+  href: microsoft-forms-and-powerapps-tips.md
 - name: Setup for Local .NET Development
   href: setup-for-local-net-development.md
 - name: SharePoint Online Wiki Sites
