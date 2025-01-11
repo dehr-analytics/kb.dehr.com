@@ -20,7 +20,7 @@
 ## Branching
 - Go to different parts of the form based on answers
 
-## Upload file with question
+## Upload file with a question
 
 ## Immersive reader (icon)
 - Reads the article for you
