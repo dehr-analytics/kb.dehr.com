@@ -75,6 +75,45 @@
 ## Integration with Microsoft Stream (video solution)
 - Insert forms into the video (knowledge check in the video)
 
+# PowerApps
+
+## Products
+Power Apps
+Power Automate
+Power BI
+Power Pages (External or internal users)
+
+## Power Platform Core Components
+AI Builder
+Dataverse
+Data Connectors (connect apps, data, devices)
+
+## Microsoft Copilot for Power Platform
+AI assistant
+Empire you to build solutions
+Simplify process to add AI to solutions
+Many copilots available
+
+## Administration and security
+Environments allow you to store, manage, and share your data, apps and flows in Power Platform - dev, test, new geo locations
+
+## Types of environments
+Default environment
+Trial environment
+Sandbox environment (non-prod areas to dev and test solutions)
+Production
+
+## Security roles
+Environment admin (all admin tasks)
+Environment maker 
+Custom roles (based on predefined roles)
+https://learn.microsoft.com/power-platform/admin/database-security
+Managed environments - https://learn.microsoft.com/power-platform/admin/managed-environment-enable
+
+
+
+
+
 
 
 
