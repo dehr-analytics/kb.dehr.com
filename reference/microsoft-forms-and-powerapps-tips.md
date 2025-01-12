@@ -111,6 +111,41 @@
 - Managed environments 
   - https://learn.microsoft.com/power-platform/admin/managed-environment-enable
 
+## Security on Power Platform
+- Authentication and encryption
+- https/tls
+- Environments - single geo location
+- Identity and Access Management (IAM)
+- Microsoft Dataverse
+  - Role-based security
+  - Business units and teams
+  - Entity/record access
+- DLP (Data Loss Prevention) policies
+- Monitoring (static analysis tools and reports)
+
+## DLP
+- Prevent data leakage (tentant and environment level)
+
+## Admin Center tools
+- Power Platform admin center
+- BI admin center
+- Entra admin center
+- M365 (accounts, licenses, subscriptions)
+
+## Managing compliance in the cloud
+- https://www.microsoft.com/trust-center
+- Access your compliance score (shows how well compliance is managed)
+- Service trust portal at https://servicetrust.microsoft.com
+
+## Accessibility
+- Properties in Power Apps
+- Accessible themes (colors, font styles, etc.)
+- Multilingual apps
+- Text to speech in apps and screen readers
+- App checker (shows accesibility issues)
+- https://www.microsoft.com/accessibility
+
+
 
 
 
