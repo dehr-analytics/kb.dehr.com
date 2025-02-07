@@ -1,4 +1,4 @@
-# Add Email Attachments to DevOps Work Items using Power Automate
+# Add Email Attachments to DevOps Work Items Using Power Automate
 
 This article assumes you know how to implement the following steps first:
 
