@@ -1,5 +1,7 @@
 # This is an automatically generated file
 items:
+- name: Add Email Attachments to DevOps Work Items using Power Automate
+  href: add-email-attachments-to-devops-workitems-using-power-automate.md
 - name: Clear Browser Network Cache
   href: clear-browser-network-cache.md
 - name: Configuring DocFX
