@@ -1,6 +1,6 @@
 ---
 _layout: landing
-title: I/O
+title: IO
 ---
 
 Information in this site is focused on data organization, analysis, and development of software for multitude of purposes and for public use.  Its coverage is by no means complete and mostly contextual.  
