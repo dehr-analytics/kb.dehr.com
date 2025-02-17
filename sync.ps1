@@ -2,7 +2,7 @@ $ErrorActionPreference = "Stop"
 
 Write-Host 'Pushing changes to Git for my app!';
 
-$dir = $env:USERPROFILE + "\source\repos\statscale.io\"
+$dir = $env:USERPROFILE + "\source\repos\io.statscale.com\"
 Set-Location $dir
 
 # & .\gentoc.ps1
