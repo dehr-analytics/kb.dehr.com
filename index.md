@@ -9,4 +9,5 @@ To incorporate corrections or additions you can <a href="https://docs.github.com
 
 ### Open Source AI Models
 
-See all the <a href="https://huggingface.co/models">open source AI models</a>.
+- <a href="https://huggingface.co/models" target="window">Huggingface Open Source AI Models</a>
+- <a href="https://github.com/marketplace?type=models" target="window">Microsoft GitHub Marketplace AI Models</a>
