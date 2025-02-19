@@ -7,7 +7,7 @@ Information in this site is focused on data organization, analysis, and developm
 
 To incorporate corrections or additions you can <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo" target="window">fork it</a> and request a pull per instructions <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo" target="window">here</a>.
 
-### Open Source AI Models
+### AI Models
 
-- <a href="https://huggingface.co/models" target="window">Huggingface Open Source AI Models</a>
+- <a href="https://huggingface.co/models" target="window">Hugging Face Open Source AI Models</a>
 - <a href="https://github.com/marketplace?type=models" target="window">Microsoft GitHub Marketplace AI Models</a>
