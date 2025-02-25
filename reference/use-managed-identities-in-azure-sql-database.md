@@ -66,6 +66,7 @@ Content-Type: application/json; charset=utf-8
 See the troubleshooting guide for more information. https://aka.ms/azsdk/net/identity/managedidentitycredential/troubleshoot
 
 
+Server=tcp:dealbit-test.database.windows.net,1433;Database=dealbit-test;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 
 
 
