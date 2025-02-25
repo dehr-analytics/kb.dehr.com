@@ -1,4 +1,4 @@
-To allow acccess from your workstation to the Azure SQL database, you will have to add your IP to the Security - Networking area under Firewall rules.
+To allow acccess from your workstation to the Azure SQL database, you will have to go to the Azure SQL *server* and add your IP to the Security - Networking area under Firewall rules.
 
 First select Public access - Selected networks.
 
