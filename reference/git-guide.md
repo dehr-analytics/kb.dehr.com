@@ -81,5 +81,41 @@ on:
       - main
 ```
 
+### Installing Git on Windows
+
+7:05 PM 3/16/2025
+
+- At the GNU General Public License, hit Next
+- Select Destination Location
+  - C:\Program Files\Git
+- Select Components
+  - Checked
+    - Associate .git* configuration files with the default text editor
+    - Associate .sh files to be run with Bash
+    - (NEW!) Scalar (Git add-on to manage large-scale repositories)
+- Select Start Menu Folder
+  - Git
+- Choosing the default editor used by Git
+  - Use Notepad++ as Git's default editor
+- Adjusting the name of the initial branch in new repositories
+  - Override the default branch name for new repositories
+    - main
+- Adjusting your PATH environment
+  - Git from the command line and also from 3rd-party software
+- Choosing the SSH executable
+  - Use bundled OpenSSH
+- Choosing HTTPS transport backend
+  - Use the native Windows Secure Channel library
+- Configuring the line ending conversions
+  - Checkout Windows-style, commit Unix-style line endings
+- Configuring the terminal emulator to use with Git Bash
+  - Use Windows' default console window
+- Choose the default behavior of 'git pull'
+  - Fast-forward or merge - this will update your project if you have not made any changes yet, or merge if you have
+- Choose a credential helper
+  - Git Credential Manager
+- Configuring extra options
+  - Enable file system caching
+- Select Install
 
 <hr>
