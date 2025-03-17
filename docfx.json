@@ -13,7 +13,7 @@
     "resource": [
       {
         "files": [
-          "template-statscale/**",
+          "template-dehr/**",
           "assets/**"
         ]
       }
@@ -21,19 +21,19 @@
     "output": "_site",
     "globalMetadata": {
       "_appName": "",
-      "_appTitle": "Statscale",
+      "_appTitle": "DEHR",
       "_enableSearch": true,
       "pdf": false,
-      "_appLogoPath": "/template-statscale/statscale.png",
-      "_appFooter": "&copy; <a href='https://www.statscale.com'>Statscale</a>",
+      "_appLogoPath": "/template-dehr/dehr-small.png",
+      "_appFooter": "&copy; <a href='https://www.dehr.com'>DEHR</a>",
       "_enableNewTab": true,
-      "_appFaviconPath": "/template-statscale/favicon.ico",
+      "_appFaviconPath": "/template-dehr/favicon.ico",
       "_googleAnalyticsTagId": "G-0LXB0YPRNM"
     },
     "template": [
      "default",
      "modern",
-     "template-statscale"
+     "template-dehr"
     ]   
   }
 }

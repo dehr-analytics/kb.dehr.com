@@ -83,8 +83,6 @@ on:
 
 ### Installing Git on Windows
 
-7:05 PM 3/16/2025
-
 - At the GNU General Public License, hit Next
 - Select Destination Location
   - C:\Program Files\Git
