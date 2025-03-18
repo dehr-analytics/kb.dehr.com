@@ -3,7 +3,7 @@ _layout: landing
 title: KB
 ---
 
-Information in this site is focused on data organization, analysis, and development of software for multitude of purposes and for public use.  Its coverage is by no means complete and mostly contextual.  
+Information in this site are start-up practices for handling aspects of data analytics, collaboration and AI.
 
 To incorporate corrections or additions you can <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo" target="window">fork it</a> and request a pull per instructions <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo" target="window">here</a>.
 
