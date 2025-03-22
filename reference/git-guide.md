@@ -94,7 +94,7 @@ on:
 - Select Start Menu Folder
   - Git
 - Choosing the default editor used by Git
-  - Use Notepad++ as Git's default editor
+  - Use Notepad as Git's default editor
 - Adjusting the name of the initial branch in new repositories
   - Override the default branch name for new repositories
     - main
