@@ -89,6 +89,7 @@ on:
   - C:\Program Files\Git
 - Select Components
   - Checked
+    - Git LFS (Large File Support)
     - Associate .git* configuration files with the default text editor
     - Associate .sh files to be run with Bash
     - (NEW!) Scalar (Git add-on to manage large-scale repositories)
