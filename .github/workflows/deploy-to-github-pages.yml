@@ -32,19 +32,6 @@ jobs:
       with:
         dotnet-version: 8.x
 
-    - name: Install DocFxTocGenerator
-      run: dotnet tool install -g DocFxTocGenerator
-
-    - name: Add .dotnet/tools to PATH
-      shell: bash
-      run: |
-        echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
-        echo "Added $HOME/.dotnet/tools to PATH"
-    
-    - name: Generate TOC
-      shell: bash
-      run: $HOME/.dotnet/tools/docfxtocgenerator -d ./reference -vs --max-level 3
-
     - run: dotnet tool update -g docfx
 
     - run: docfx docfx.json
