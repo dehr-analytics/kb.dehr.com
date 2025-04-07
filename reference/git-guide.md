@@ -83,6 +83,7 @@ on:
 
 ### Installing Git on Windows
 
+- Get the latest installation file for Windows from <a href="https://git-scm.com/downloads" target="_blank">git-scm.com/downloads</a>
 - At the GNU General Public License, hit Next
 - Select Destination Location
   - C:\Program Files\Git
