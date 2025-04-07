@@ -36,9 +36,9 @@ jobs:
       run: dotnet tool install -g DocFxTocGenerator
 
     - name: Generate TOC
-      run: docfx-toc-generator ./reference --max-level 3
+      run: docfxtocgenerator -d ./reviews -vs --max-level 3
       
-    - run: docfx-toc-generator ./reviews --max-level 3
+    - run: docfxtocgenerator -d ./reference -vs --max-level 3
 
     - run: dotnet tool update -g docfx
 
