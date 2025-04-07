@@ -127,4 +127,5 @@ on:
   - Enable file system caching
 - Select Install
 
-<hr>
+### Good .gitignore notes
+- <a href="https://www.atlassian.com/git/tutorials/saving-changes/gitignore">Atlassian .gitignore file notes</a>
