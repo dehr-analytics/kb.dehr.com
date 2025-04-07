@@ -21,3 +21,5 @@ The `RemoteSigned` execution policy requires that:
 
 - Scripts created locally (on your machine) can run without any digital signature.
 - Scripts downloaded from the internet (including email attachments or web downloads) must be digitally signed by a trusted publisher before they can run.
+
+And so far that's it.
