@@ -128,4 +128,4 @@ on:
 - Select Install
 
 ### Good .gitignore notes
-- <a href="https://www.atlassian.com/git/tutorials/saving-changes/gitignore">Atlassian .gitignore file notes</a>
+- <a href="https://www.atlassian.com/git/tutorials/saving-changes/gitignore" target="_blank">Atlassian .gitignore file notes</a>
