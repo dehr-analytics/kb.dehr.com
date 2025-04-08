@@ -66,6 +66,15 @@ git config --list
 git config --global init.defaultbranch main
 ```
 
+### Import directory into git
+
+```git
+git init
+git add .
+git commit -m 'Initial commit'
+git push ...
+```
+
 ### Ignoring files during deployments
 
 A yml file dictates how your app deployment behaves.  An app update should not occur when the yml file is itself updated because the yml file doesn't change how the app works.  
@@ -118,4 +127,5 @@ on:
   - Enable file system caching
 - Select Install
 
-<hr>
+### Good .gitignore notes
+- <a href="https://www.atlassian.com/git/tutorials/saving-changes/gitignore" target="_blank">Atlassian .gitignore file notes</a>
