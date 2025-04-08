@@ -19,6 +19,7 @@
       }
     ],
     "output": "_site",
+    "postProcessors": [ "ExtractSearchIndex" ],
     "globalMetadata": {
       "_appName": "",
       "_appTitle": "DEHR Analytics",
