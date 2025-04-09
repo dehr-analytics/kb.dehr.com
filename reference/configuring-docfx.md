@@ -1,6 +1,15 @@
 # Configuring DocFX
 
-Here's a rolling account of how to customize DocFX for your own use or your company.
+- Install latest .NET if you haven't yet
+
+After you install .NET, run this command if you don't want Microsoft to collect your .NET usage data:
+
+```
+setx DOTNET_CLI_TELEMETRY_OPTOUT 1
+```
+- Follow the DocFX <a href="https://dotnet.github.io/docfx/index.html" target="_blank">Quick Start</a>, it's quite straight forward.
+
+And here are some more tips on how to customize your DocFX experience.
 
 ## Git adjustments
 - Add ``_site`` folder to ``.gitignore`` in addition to any other items your DocFX git repository should avoid having.
