@@ -21,9 +21,9 @@
     "output": "_site",
     "postProcessors": [ "ExtractSearchIndex" ],
     "globalMetadata": {
+       "_enableSearch": "true",
       "_appName": "",
       "_appTitle": "DEHR Analytics",
-      "_enableSearch": true,
       "pdf": false,
       "_appLogoPath": "/template-dehr/dehr.png",
       "_appFooter": "&copy; <a href='https://www.dehr.com'>DEHR Analytics</a>",
