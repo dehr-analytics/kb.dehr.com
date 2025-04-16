@@ -148,6 +148,8 @@
 ## Deployment
 - [Using Pipelines to Simplify Power Platform Deployments](https://www.youtube.com/watch?v=ryjImcByFl4)
 
+## Extending connectors
+- It's possible to create [custom connectors](https://www.microsoft.com/en-us/power-platform/blog/power-apps/a-sample-custom-connector-for-servicenow-using-oauth-authentication/)
 
 
 
