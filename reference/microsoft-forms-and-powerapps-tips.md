@@ -145,8 +145,8 @@
 - App checker (shows accesibility issues)
 - https://www.microsoft.com/accessibility
 
-## Deployment and environments
-- https://www.youtube.com/watch?v=ryjImcByFl4
+## Deployment
+- [Using Pipelines to Simplify Power Platform Deployments](https://www.youtube.com/watch?v=ryjImcByFl4)
 
 
 
