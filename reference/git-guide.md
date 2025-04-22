@@ -91,7 +91,7 @@ on:
 ```
 
 ### Excluding web.config from your source code
-```git update-index --assume-unchanged web.config``
+``git update-index --assume-unchanged web.config``
 
 ### Installing Git on Windows
 
