@@ -33,9 +33,8 @@
     },
     "template": [
      "default",
-          "modern",
-     "template-dehr"
-
+      "modern",
+      "template-dehr"
     ]
   }
 }
