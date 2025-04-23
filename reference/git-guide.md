@@ -90,6 +90,9 @@ on:
       - main
 ```
 
+### Excluding web.config from your source code
+``git update-index --assume-unchanged web.config``
+
 ### Installing Git on Windows
 
 - Get the latest installation file for Windows from <a href="https://git-scm.com/downloads" target="_blank">git-scm.com/downloads</a>
