@@ -19,8 +19,7 @@
       }
     ],
     "output": "_site",
-    "dest": "_site",
-    "postProcessors": [ "ExtractSearchIndex" ],
+     "postProcessors": [ "ExtractSearchIndex" ],
     "globalMetadata": {
        "_enableSearch": "true",
       "_appName": "",
