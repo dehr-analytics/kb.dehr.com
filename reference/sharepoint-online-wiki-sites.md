@@ -30,8 +30,11 @@ It's best if you are a SharePoint Online admin.
 This custom search vertical will create a KB Article search result type.
 - In the Search insights and configuration page, click Add
 
-# Site security and permissions
+# SharePoint Governance
 
+Some information on M365 governance and a service that makes it easier:
+- https://www.orchestry.com
+- https://learn.microsoft.com/en-us/microsoft-365/solutions/collaboration-governance-overview?view=o365-worldwide
 
 ## References
 - https://sharepointmaven.com/how-to-create-a-knowledge-base-in-sharepoint/
