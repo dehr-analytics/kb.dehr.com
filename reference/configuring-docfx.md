@@ -51,3 +51,8 @@ The explanation for the parameters v and s is <a href="https://github.com/Ellerb
 With the DocFxTocGenerator it's easiest to employ a couple of these commands to your git sync file, so that the table of contents are generated automatically before the pages are pushed to the repository.
 
 To find more extensions to DocFX be sure to visit <a href="https://dotnet.github.io/docfx/extensions/tools.html">DocFX Tools</a>.
+
+A list of organizations that use DocFX:
+- https://github.com/dotnet/docfx/discussions/9002
+
+To use DocFX, include it in your API project to generate its documentation.
